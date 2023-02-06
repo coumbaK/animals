@@ -1,16 +1,82 @@
-.description{
-    display: none;
+
+body{
+    margin : 0;
 }
+
+header{
+    height : 300px;
+    width : 100%;
+    padding: 0;
+    position: relative;
+}
+header img{
+    height : 100%;
+    width : 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(80%);
+    margin : 0;
+ 
+}
+h1{
+    font-family: 'Loved by the King', cursive;
+    margin: 0;
+    position: absolute;
+    font-size: 50px;
+    top : 50%;
+    left : 10%;
+    color : white;
+
+}
+
 .button {
-    border : 1px solid rgb(230, 118, 33);
-    background-color : rgb(230, 118, 33);
-    border-radius : 5px;
+    border : 1px solid #644740;
     text-decoration: none;
     padding: 5px;
+    text-align: center;
+    color: black;
+    margin :0px;
+}
+#books {
+    display: flex;
+    height : 100vh;
+    justify-content: start;
+    align-items: flex-start;
+    gap : 30px;
+    padding : 50px;
+    flex-wrap: wrap;
+
 }
 .book{
     display :flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 300px;
+    width : 600px;
+    gap : 10px;
+    text-align: start;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.book img {
+    height: 100%;
+    width : 30%;
+    border-radius: 15px 0 0 15px;
+
+
+
+}
+
+h3,h4 {
+    padding : 3px;
+    font-family: "lora";
+
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique;
+}
+h4{
+    font-size: 15px;
+    font-weight: 400;
 }

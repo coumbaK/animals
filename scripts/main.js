@@ -1,1 +1,1 @@
-const book = document.getElementsByClassName('book')[0];
+const book = document.getElementsById('book')
