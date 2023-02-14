@@ -18,6 +18,7 @@ header img{
     margin : 0;
  
 }
+
 h1{
     font-family: 'Loved by the King', cursive;
     margin: 0;
@@ -27,6 +28,15 @@ h1{
     left : 10%;
     color : white;
 
+}
+h2{
+    font-family: 'Loved by the King', cursive;
+    margin: 0;
+    position: absolute;
+    font-size: 20px;
+    top : 80%;
+    left : 10%;
+    color : white;
 }
 
 .button {
@@ -39,31 +49,39 @@ h1{
 }
 #books {
     display: flex;
-    height : 100vh;
-    justify-content: start;
-    align-items: flex-start;
-    gap : 30px;
+    justify-content: center;
+    align-items: center;
+    gap : 2%;
     padding : 50px;
     flex-wrap: wrap;
 
 }
-.book{
+.hide , .show {
     display :flex;
-    height: 300px;
+ 
     width : 600px;
     gap : 10px;
     text-align: start;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
+    margin : 2%;
 }
-
-.book img {
-    height: 100%;
+.show img {
+    height: 300px;
     width : 30%;
     border-radius: 15px 0 0 15px;
+    display: block;
+}
 
+.hide img {
+    height: 300px;
+    width : 30%;
+    border-radius: 15px 0 0 15px;
+    display: none;
 
-
+}
+.hide p {
+    display: none;
 }
 
 h3,h4 {
